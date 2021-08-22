@@ -54,11 +54,26 @@ Slide show
 
 https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_slideshow_auto
 
+About tutorial video
+https://www.youtube.com/watch?v=8kS1B5iaBmg
+
+itt tartasz: 1.08
 
 ---------------------------------------------------------------------------------------
 
-header
 
-https://www.youtube.com/watch?v=WAIfQOR9bh4&t=231s
 
-itt tartasz: 4.33 
+* #95D5B2*/
+
+/*#74c69d*/
+
+/*#279AF1*/
+/*#74c69d*/
+
+/*background-color: #426a5ad0;*/
+
+
+/*font-family: 'Comic Neue', cursive;*/
+
+
+
