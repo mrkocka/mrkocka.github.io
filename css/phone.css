@@ -44,10 +44,14 @@
     margin-top: 200px;
 }
 
+/*-------------Footer----------------------------------------------*/
+
 .footerContainer{
     display: flex;
     justify-content: space-around;
 }
 .footerContainer img{
     width: 4rem;
+    margin-top: 1% ;
+    margin-bottom: 1%;
 }
