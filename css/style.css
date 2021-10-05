@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    padding: 0;
+
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(../img/Muterem.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
+    background-size: cover;
+    color: gold;
+    font-family: 'Gemunu Libre', sans-serif;
+}
+
+/*-----------Header/Nav--------------------------------------------------------------*/
+
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+.logo img{
+    max-height: 90px;
+    max-width: 100px;
+    flex-shrink: 0;
+    margin: 6px;
+    cursor: pointer;
+}
+
+nav {
+    margin-top: 8px;
+}
+nav .mainMenu{
+    display: flex;
+    list-style: none;
+}
+
+
+nav .mainMenu li a {
+    display: inline-block;
+    color: gold;
+    padding: 15px;
+    text-decoration: none;
+    text-shadow: 1px 1px 6px black;
+    text-transform: uppercase;
+    font-size: 1.5rem;
+}
+nav .mainMenu li a:hover{
+    color: rgb(211, 207, 207);
+}
+
+nav .openMenu{
+    font-size: 2rem;
+    margin: 20px;
+    display: none;
+    cursor: pointer;
+}
+
+nav .mainMenu .closeMenu , .icons i {
+    font-size: 2rem;
+    display: none;
+    cursor: pointer;
+}
+
+.fa-facebook-f:hover{color:rgb(211, 207, 207);}
+.fa-instagram:hover{color:rgb(211, 207, 207);}
+.fa-deviantart:hover{color:rgb(211, 207, 207);}
+
+
+@media(max-width: 870px){
+    nav .mainMenu{
+        height: 100vh;
+        position: fixed;
+        top: 0;
+        right: 0;
+        left: 0;
+        z-index: 10;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background: rgb(0, 0, 0);
+        transition: top 1s ease;
+        display: none;
+    }
+    nav .mainMenu .closeMenu{
+        display: block;
+        position: absolute;
+        top: 20px;
+        right: 20px;
+
+    }
+    nav .openMenu{
+        display: block;
+    }
+    nav .mainMenu li a:hover {
+        font-size: 1.6rem;
+    }
+    .icons i{
+        display:inline-block;
+        padding: 15px;
+        padding-top: 28px;
+    }
+}
+
+/*------------------------------Maine----------------------------------------------------------*/
+
+.textContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15vh;
+}
+.textContainer h2{
+    margin-top: 5vh;
+}
+
+.typeEfect{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 8vh;
+}
