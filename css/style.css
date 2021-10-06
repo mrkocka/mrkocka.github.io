@@ -22,8 +22,8 @@ nav {
     justify-content: space-between;
 }
 .logo img{
-    max-height: 90px;
-    max-width: 100px;
+    max-height: 100px;
+    max-width: 120px;
     flex-shrink: 0;
     margin: 6px;
     cursor: pointer;
@@ -100,7 +100,6 @@ nav .mainMenu .closeMenu , .icons i {
     .icons i{
         display:inline-block;
         padding: 15px;
-        padding-top: 28px;
     }
 }
 
@@ -111,10 +110,10 @@ nav .mainMenu .closeMenu , .icons i {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-top: 15vh;
+/*     margin-top: 15vh; */
 }
 .textContainer h2{
-    margin-top: 5vh;
+    /* margin-top: 5vh; */
 }
 
 .typeEfect{
@@ -122,5 +121,5 @@ nav .mainMenu .closeMenu , .icons i {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-top: 8vh;
+  /*   margin-top: 8vh; */
 }
