@@ -1,5 +1,9 @@
-.textContainer{
-    margin-top: 15vh;
+
+.textContainer h1{
+    font-size: small;
+    letter-spacing: normal;
+    align-items: none;
+    padding: 2px;
 }
 
 .textContainer h2{
