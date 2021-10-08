@@ -1,8 +1,8 @@
+
+//hamburberMenu
 const mainMenu = document.querySelector ('.mainMenu');
 const closeMenu = document.querySelector ('.closeMenu');
 const openMenu = document.querySelector ('.openMenu');
-
-
 
 
 openMenu.addEventListener('click' ,show);
@@ -16,3 +16,18 @@ function show(){
 function close(){
     mainMenu.style.top = '-100%';
 }
+
+//typeAnimationEffect
+
+var i=0;
+var txt="Egyedi, Igényes, Művészi";
+var speed=160;
+
+function type(){
+    document.getElementById("type").innerHTML
+        +=txt.charAt(i);
+     i++;
+     setTimeout(type,speed);
+}
+type();
+
