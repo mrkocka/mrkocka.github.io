@@ -1,5 +1,4 @@
-
-//hamburberMenu
+//hamburgerMenu
 const mainMenu = document.querySelector ('.mainMenu');
 const closeMenu = document.querySelector ('.closeMenu');
 const openMenu = document.querySelector ('.openMenu');
@@ -17,8 +16,8 @@ function close(){
     mainMenu.style.top = '-100%';
 }
 
-//typeAnimationEffect
 
+//TypingAnimationEffect
 var i=0;
 var txt="Egyedi, Igényes, Művészi";
 var speed=160;
@@ -30,4 +29,3 @@ function type(){
      setTimeout(type,speed);
 }
 type();
-
