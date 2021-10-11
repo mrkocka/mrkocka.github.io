@@ -247,6 +247,12 @@ section:nth-child(6){
     display: none;
   }
   
+  #page1 h1{
+    font-size: 4rem;
+    letter-spacing: .5rem;
+    margin-top: 30vh;
+    margin-left: 8vh;
+  }
 
 }
 
