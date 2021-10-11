@@ -31,7 +31,7 @@ function close(){
 
 //TypingAnimationEffect
 var i=0;
-var txt="Egyedi, Igényes, Művészi";
+var txt="Egyedi,  Igényes,  Művészi";
 var speed=160;
 
 function type(){

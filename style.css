@@ -99,6 +99,11 @@ section{
 ::-webkit-scrollbar{
   display: none;
 }
+.textContainer{
+    display: flex;
+    flex-direction: column;
+}
+
 
 /*---------------------------------Page_1------------------------------------------------*/
 #page1 h1{
@@ -107,7 +112,7 @@ section{
   letter-spacing: 1rem;
   margin-top: 30vh;
 }
-#page1 h2{
+#EIM{
   font-size: 2rem;
   text-align: center;
   margin-top: 10vh;
@@ -118,6 +123,7 @@ section{
   font-size: 2.5rem;
   text-align: center;
   margin-top: 8vh;
+  white-space: pre;
   text-shadow: 3px 3px black;
 }
 
@@ -247,16 +253,56 @@ section:nth-child(6){
     display: none;
   }
   
-  #page1 h1{
-    font-size: 4rem;
-    letter-spacing: .5rem;
-    margin-top: 30vh;
-    margin-left: 8vh;
-  }
 
 }
 
+@media(max-width: 800px){
+  #page1 h1{
+    font-size: 4rem;
+    text-align: center;
+    text-shadow: 3px 3px black;
+    letter-spacing: 1rem;
+   margin-top: 30vh;
+  }
+  #EIM{
+    font-size: 1.5rem;
+    text-align: center;
+    margin-top: 10vh;
+    letter-spacing: .8rem;
+    text-shadow: 3px 3px black;
+  }
+  #type{
+    font-size: 2.3rem;
+    text-align: center;
+    margin-top: 8vh;
+    white-space: pre;
+    text-shadow: 3px 3px black;
+  }
 
-@media(max-width: 530px){
-  
+}
+@media(max-width: 645px){
+    main,h2{
+      font-size: .5rem;
+      letter-spacing:.5rem;
+    }
+}
+
+@media(max-width: 595px){
+  #page1 h1{
+    font-size: 3rem;
+  }
+  #EIM{
+    letter-spacing: .5rem;
+   
+  }
+  #type{
+    font-size: 1.5rem;
+  }
+}
+
+@media(max-width: 595px){
+  #page1 h1{
+    font-size: 3rem;
+    letter-spacing: .7rem;
+  }
 }
