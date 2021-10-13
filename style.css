@@ -217,6 +217,9 @@ section:nth-child(6){
     display: flex;
     justify-content: space-between;
   }
+  nav{
+    width: 25%;
+  }
   nav .mainMenu{
       height: 100vh;
       margin-top: 1px;
