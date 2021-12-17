@@ -71,8 +71,16 @@ main{
     justify-content: space-around;
     outline: 1px solid whitesmoke;
     height: auto;
-    
-  
+}
+
+main a {
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+.card:hover{
+    box-shadow: rgba(245, 245, 245, 0.733) 0px 12px 28px 0px, rgba(245, 245, 245, 0.733) 0px 2px 4px 0px, rgba(245, 245, 245, 0.733) 0px 0px 0px 1px inset;
+
 }
 
 
@@ -87,6 +95,7 @@ main{
     display: flex;
     flex-direction: column;
     justify-content: center;
+    cursor: pointer;
    
 }
 .card p{
