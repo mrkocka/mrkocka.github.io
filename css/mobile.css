@@ -3,6 +3,19 @@ h1{
     letter-spacing: .5rem;
    
 }
+header{
+    flex-direction: column;
+    justify-content: center;
+}
+
+.h1Text{
+    /* outline: 1px solid whitesmoke; */
+    width:100%;
+}
+.linkText{
+    width: 100%;
+}
+
 header p{
     
     font-size: 1rem;
@@ -36,6 +49,7 @@ footer{
 .logoBox{
     /* outline: 1px solid whitesmoke; */
     width: 100%;
+    letter-spacing: .3rem;
 }
 
 .socNtextBox{
