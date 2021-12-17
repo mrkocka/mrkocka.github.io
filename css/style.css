@@ -7,19 +7,17 @@
 
 h1, h2{
     font-family: 'Amatic SC', cursive;
+    text-align: center;
 }
 
 h1{
     font-size: 2.8rem;
     letter-spacing: 1.5rem;
 }
-
-p{
-    font-family:'Open Sans Condensed', sans-serif;
-    font-size: 1.5rem;
-    letter-spacing: .2rem;
-    margin-top: 1rem;
+h2{
+   font-size: 2rem; 
 }
+
 
 /*------------------------------------Header------------------------------------------------*/
 header{
@@ -36,11 +34,18 @@ header div{
 
 }
 .h1Text{
-   
+    /* outline: 1px solid whitesmoke; */
     width:80%;
 }
 .linkText{
     width: 20%;
+}
+
+header p{
+    font-family:'Open Sans Condensed', sans-serif;
+    font-size: 1.5rem;
+    letter-spacing: .2rem;
+    margin-top: 1rem;
 }
 
 header a{
@@ -54,5 +59,63 @@ header a{
 
 main{
     background-color: rgba(245, 222, 179, 0.342);
-    height: 50rem;
+    height: auto;
+    color: whitesmoke; 
+    background-image: url(../img/klavi_bg_optimized.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    z-index: 1;
+    display:flex ;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    outline: 1px solid whitesmoke;
+    height: auto;
+    
+  
 }
+
+
+.card {
+   /*  outline: 1px solid whitesmoke; */
+    height: 26rem;
+    margin-top: 8rem;
+    margin-bottom: 10rem;
+    padding: 1rem;
+    border-radius: 1.25rem;
+    background-color: #757576d3;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+   
+}
+.card p{
+    /* outline: 1px solid whitesmoke; */
+    max-width: 19rem;
+    font-family:'Open Sans Condensed', sans-serif;
+    font-size: 1.5rem;
+    margin-top: 1rem;
+    padding: .2rem;
+    text-align: justify;
+}
+.card img{
+    width: 15rem;
+    height: 10rem;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1rem;
+}
+
+/*------------------------------Footer--------------------------------------------*/
+
+
+footer{
+    background-color:#262626;
+    color: whitesmoke;
+}
+
+footer a {
+    text-decoration: none;
+    color: whitesmoke;
+}
+
