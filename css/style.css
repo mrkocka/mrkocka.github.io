@@ -13,6 +13,7 @@ h1, h2{
 h1{
     font-size: 2.8rem;
     letter-spacing: 1.5rem;
+   
 }
 h2{
    font-size: 2rem; 
@@ -26,7 +27,9 @@ header{
     background-color: black;
     color: whitesmoke;
     width: auto;
-    height: 4rem;
+    height: 6rem;
+    padding: 1rem;
+  
 }
 header div{
     display: flex;
@@ -65,17 +68,17 @@ main{
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    z-index: 1;
     display:flex ;
     flex-wrap: wrap;
-    justify-content: space-around;
-    outline: 1px solid whitesmoke;
+    justify-content: space-evenly;
     height: auto;
 }
 
 main a {
     text-decoration: none;
     color: whitesmoke;
+    
+  
 }
 
 .card:hover{
@@ -95,7 +98,7 @@ main a {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    cursor: pointer;
+   /*  cursor: pointer; */
    
 }
 .card p{
@@ -115,12 +118,18 @@ main a {
     margin-top: 1rem;
 }
 
+
 /*------------------------------Footer--------------------------------------------*/
 
 
 footer{
     background-color:#262626;
     color: whitesmoke;
+    display: flex;
+    height: auto;
+    font-size: 1.4rem;
+    font-family:'Open Sans Condensed', sans-serif;
+    
 }
 
 footer a {
@@ -128,3 +137,83 @@ footer a {
     color: whitesmoke;
 }
 
+.logoBox{
+    width: 33.33%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    letter-spacing: .8rem;
+}
+
+.logoBox img{
+    width: 10vh;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+
+.socNtextBox{
+    width: 33.33%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.socIcon{
+    width: 90%;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+.socIcon .fa{
+    font-size: 2.6rem;
+    text-decoration: none;
+    color: whitesmoke;
+}
+.socIcon .fa:hover{
+    color: red;
+}
+
+.tel a{
+    color: whitesmoke;
+    font-size: 1.5rem;
+    font-family: 'Amatic SC', cursive;
+}
+.tel a:hover{
+    color: red;
+}
+.tel .fas{
+    font-size: 1.5rem;
+    margin-right: .5rem;
+}
+
+.email a{
+    color: whitesmoke;
+    font-size: 1.5rem;
+}
+
+.email a:hover{
+    color: red;
+}
+.email .fas{
+    font-size: 1.5rem;
+    margin-right: .3rem;
+}
+
+
+.linkBox{
+    width: 33.33%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.linkBox p{
+   margin-top: 6rem;
+   letter-spacing: .8rem;
+}
+.linkBox a:hover{
+    color: red;
+}
