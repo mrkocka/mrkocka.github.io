@@ -4,12 +4,10 @@ h1{
    
 }
 header{
-    flex-direction: column;
     justify-content: center;
 }
 
 .h1Text{
-    /* outline: 1px solid whitesmoke; */
     width:100%;
 }
 .linkText{
@@ -36,39 +34,25 @@ header p{
 /*------------------------------Footer--------------------------------------------*/
 
 footer{
-    /* outline: 1px solid whitesmoke; */
     display: flex;
     flex-direction: column;
     align-items: center;
     height: auto;
     font-size: 1rem;
-    font-family:'Open Sans Condensed', sans-serif;
     
 }
 
 .logoBox{
-    /* outline: 1px solid whitesmoke; */
-    width: 100%;
+    
     letter-spacing: .3rem;
 }
 
-.socNtextBox{
-    /* outline: 1px solid whitesmoke; */
-    width: 100%;
-}
-
 .socIcon{
-    /* outline: 1px solid whitesmoke; */
-    width: 100%;
     justify-content: space-evenly;
     margin-top: 1rem;
     margin-bottom: 1rem;
 }
 
-.linkBox{
-    /* outline: 1px solid whitesmoke; */
-    width: 100%;
-}
 
 .linkBox p{
     margin-top: 2rem;
