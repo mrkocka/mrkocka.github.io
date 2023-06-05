@@ -182,7 +182,7 @@ h1 {
 }
 .box-container {
   margin: 0 auto;
-  width: 30rem;
+  max-width: 30rem;
   text-align: center;
   padding: 1rem;
 }
@@ -233,7 +233,6 @@ footer {
   .nav-list li a {
     font-size: 90%;
   }
-
 }
 
 @media only screen and (max-width: 940px) {
@@ -256,8 +255,6 @@ footer {
     outline: 3px solid #03aaa3;
   }
 }
-
-
 
 @media only screen and (max-width: 600px) {
   .microHero {
@@ -299,6 +296,10 @@ footer {
   }
 
   .slogen-box p {
+    font-size: 0.9rem;
+  }
+
+  .text-box p {
     font-size: 0.9rem;
   }
 }
